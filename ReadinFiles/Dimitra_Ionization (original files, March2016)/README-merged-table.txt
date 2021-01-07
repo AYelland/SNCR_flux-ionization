@@ -1,0 +1,6 @@
+This table contains the atmospheric ionization values computed from protons of energy range between 300 MeV and 1 PeV. The merged table contains ionization values corresponding to pressure bins (mb) of the NSFS/GSFC 2D atmospheric modeling code. Primary energies are in GeV. Refer to the following reference for details: Atri, Dimitra, Adrian L. Melott, and Brian C. Thomas. "Lookup tables to compute high energy cosmic ray induced atmospheric ionization and changes in atmospheric chemistry." Journal of Cosmology and Astroparticle Physics 2010.05 (2010): 008. 
+
+The ionization values are in units of ion pairs, which were calculated by converting energy deposited in GeV (from CORSIKA output) to ion pairs by using 35 eV conversion factor. One needs to multiply the number of particles for a given energy bin (calculated from your spectrum), as well as by 2pi to include particles incident from the hemisphere.
+
+
+Downloaded from ftp://kusmos.phsx.ku.edu/data/melott/crtables/atmoionization/ on April 21, 2020
